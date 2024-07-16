@@ -1,0 +1,319 @@
+.loginContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginL {
+  flex: 1;
+}
+.loginR {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.loginRHInfo {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.loginRHInfoWelcome {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: 3px;
+  color: #000000;
+}
+.loginRHInfoSp {
+  width: 156px;
+  height: 0px;
+  border: 3.2px solid #2ba84a;
+  margin-top: 10px;
+}
+.loginRForm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.loginRFormL {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  margin-top: 20px;
+}
+.loginRFormInput {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-style: normal;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+}
+.loginRFormInput:focus {
+  outline: none;
+}
+.inputPassLogin {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #c4c4c4;
+}
+.passwordBtn {
+  width: 90%;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-style: normal;
+  border: none;
+}
+.passwordBtn:focus {
+  outline: none;
+}
+.eyes {
+  font-size: 15px;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.forgetP {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.forgetPw {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-right: 100px;
+}
+.reset {
+  color: #2ba84a;
+  cursor: pointer;
+}
+.rememberMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 60px;
+}
+.rememeberMeText {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.rememberMeCB {
+  margin-left: 10px;
+}
+.signInSocial {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.signInSocialOr {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  margin-right: 30px;
+}
+.signInSocialG,
+.signInSocialS,
+.signInSocialF {
+  width: 139px;
+  height: 48px;
+  box-shadow: 0px 2px 10px #c4c4c4, inset 0px -1px 0px rgba(14, 14, 44, 0.4);
+  border-radius: 8px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.signInSocialS {
+  background: #ffffff;
+  border: 1px solid #2ba84a;
+  color: #2ba84a;
+}
+.signInSocialG {
+  background-color: #ffffff;
+  border: 1px solid #db4437;
+  color: #4285f4;
+}
+.signInSocialF {
+  background-color: #ffffff;
+  border: 1px solid #4267b2;
+  color: #4267b2;
+}
+.g {
+  color: #4285f4;
+}
+.o1 {
+  color: #db4437;
+}
+.o2 {
+  color: #f4b400;
+}
+
+.signInB {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.signInP {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.signInBtn {
+  width: 164px;
+  height: 48px;
+  background-color: #2ba84a;
+  box-shadow: 0px 2px 10px #c4c4c4, inset 0px -1px 0px rgba(14, 14, 44, 0.4);
+  border-radius: 8px;
+  border: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  position: relative;
+}
+.input {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+.input:checked + span {
+  background-color: #2ba84a;
+}
+.input:checked + span::before {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+.input:focus + span {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.input:checked + span {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.inputSpan {
+  display: flex;
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: gray;
+  position: relative;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+.inputSpan:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 21px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
+}
+
+@media only screen and (max-width: 480px) {
+  .loginContainer {
+    width: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .loginL {
+    display: none;
+  }
+
+  .loginR {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .loginRHInfo {
+    margin-left: 10px;
+  }
+  .loginRHInfoWelcome {
+    font-size: 20px;
+    /* text-align: center; */
+  }
+  .loginRHInfoSp {
+    width: 90px;
+    height: 0px;
+  }
+
+  .loginRForm {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .forgetP {
+    width: 100%;
+  }
+  .forgetPw {
+    margin-left: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rememberMe {
+    margin-right: 20px;
+  }
+  .rememeberMeText {
+    font-size: 12px;
+  }
+  .signInSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .signInB {
+    margin: 10px;
+    width: 90%;
+    gap: 6px;
+  }
+  .signInP {
+    font-size: 12px;
+  }
+}
