@@ -17,7 +17,7 @@ const initialState = {
   registerError: '',
   loginStatus: '',
   loginError: '',
-  userLoaded: false,
+  userLoaded:  false,
 }
 
 export const registerUser = createAsyncThunk(
