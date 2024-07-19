@@ -19,7 +19,7 @@ export const sliderImg = [
   },
   {
     id: 4,
-    photo: waste4,
+    photo: waste4 ,
   },
   {
     id: 5,
