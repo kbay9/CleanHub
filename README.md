@@ -23,7 +23,7 @@ Cleanhub is a Web application that helps people earn money while they dispose re
 
 ## Technologies used
 
-- Javascript
+-  Javascript
 - Reactjs
 - CSS
 
